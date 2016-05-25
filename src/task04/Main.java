@@ -7,7 +7,7 @@ public class Main {
 	static void oddEven(int a) {
 		if (a % 2 == 0) {
 			System.out.println("Even");
-		}else{
+		} else {
 			System.out.println("Odd");
 		}
 	}
@@ -16,7 +16,7 @@ public class Main {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter number - ");
 		int num = input.nextInt();
-		oddEven(num);		
+		oddEven(num);
 	}
 
 }
